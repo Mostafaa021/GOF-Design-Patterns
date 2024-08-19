@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Stru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern", "Creational Pattern", "{D628FE00-BC48-4498-A9AB-7C73E5CF82D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{1CDEAF16-4E69-4D7C-9825-234CE88B50D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CDEAF16-4E69-4D7C-9825-234CE88B50D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CDEAF16-4E69-4D7C-9825-234CE88B50D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1CDEAF16-4E69-4D7C-9825-234CE88B50D4} = {7FB4F092-60E7-40B5-B76F-22349F2777B4}
+		{84F106FD-BF69-4DA3-8C3F-0F00C20EBFF9} = {7FB4F092-60E7-40B5-B76F-22349F2777B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {495519C6-1352-4B01-8271-9F9D1FEBE896}
