@@ -1,10 +1,9 @@
 ﻿namespace Adapter_Pattern;
 
 
- // class adapter 
- // object adapter
 
- // wrapper pattern
+ // object adapter
+ // wrapper 
 
  // the adapter pattern is a structural design pattern
  // that allows objects with incompatible interfaces to collaborate 
@@ -12,7 +11,7 @@
  // it lets classes work together that couldn't otherwise because of incompatible interfaces
 
  // Library A's Image Resizer first option 
- public class LibraryAImageResizer 
+ public class LibraryAImageResizer  // adaptee
  {
   public void Resize(int width, int height)
   {
@@ -21,7 +20,7 @@
  }
 
 // Library B's Image Resizer second option
- public class LibraryBImageResizer
+ public class LibraryBImageResizer // adaptee
  {
   public void  SetSize(int newWidth, int newHeight)
   {
@@ -29,14 +28,14 @@
   }
  }
 
- // Adapter Interface
- public interface IImageResizer
+ // Target Interface 
+ public interface IImageResizer // target
  {
   void ResizeImage(int width, int height);
  }
 
  // Adapter Class for Library A 
- public class LibraryAImageResizerAdapter : IImageResizer
+ public class LibraryAImageResizerAdapter : IImageResizer // adapter
  {
   private readonly LibraryAImageResizer _resizer = new();
   public void ResizeImage(int width, int height)
@@ -46,7 +45,7 @@
  }
 
  // Adapter Class for Library B
- public class LibraryBImageResizerAdapter : IImageResizer
+ public class LibraryBImageResizerAdapter : IImageResizer // adapter
  {
   private readonly LibraryBImageResizer _resizer = new();
   public void ResizeImage(int width, int height)
