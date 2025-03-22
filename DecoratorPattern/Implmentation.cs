@@ -38,7 +38,7 @@ public class LocalMailService : IMailService
 // Decorator
 public abstract class MailServiceBaseDecorator : IMailService
 {
-    private  readonly IMailService _mailService;
+    private  readonly IMailService _mailService; // reference to the component being decorated to add new functionality
 
     protected MailServiceBaseDecorator(IMailService mailService)
     {
